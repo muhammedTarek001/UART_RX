@@ -56,48 +56,82 @@ All Expected Received Frames: -
 SYN.zip (synthesis operation outputs) contains:
 
 0- Synthesis script >> syn_script.tcl
+
 1- Synthesis log >> syn.log
+
 2- Technology Dependent Gate Level Netlist >> UART_RX.v
+
 3- Area report >> Area.rpt
+
 4- Power report >> power.rpt
+
 5- Hold analysis report >> hold.rpt
+
 6- Setup analysis report >> setup.rpt
+
 7- Clocks report >> clocks.rpt
+
 8- Constraints report >> constraints.rpt
+
 9- Ports report >> ports.rpt
+
 10- SVF File >> UART_RX.svf
+
 11- SDF File >> UART_RX.sdf
 
 
 DFT.zip(DFT operation outputs) contains:
 0- dft script >> dft_script.tcl
+
 1- dft log >> dft.log
+
 2- Technology Dependent Gate Level Netlist >> UART_RX.v
+
 3- Area report >> Area.rpt
+
 4- Power report >> power.rpt
+
 5- Hold analysis report >> hold.rpt
+
 6- Setup analysis report >> setup.rpt
+
 7- Clocks report >> clocks.rpt
+
 8- Constraints report >> constraints.rpt
+
 9- Ports report >> ports.rpt
+
 10- Coverage Report >> dft_drc_post_dft.rpt
+
 
 
 POST SYN Formality.zip (formal verfication after doing synthesis):
 0- Formality script >> fm_script.tcl
+
 1- Formality log >> fm.log
+
 2- Matched points report >> passing_points.rpt
+
 3- Unmatched points report >> failing_points.rpt
+
+
 4- Unverified Points report >> unverified_points.rpt
+
 5- Aborted Points report >> aborted_points.rpt
+
 
 POST DFT Formality.zip (formal verfication after doing DFT):
 
 0- Formality script >> dft_fm_script.tcl
+
 1- Formality log >> dft_fm.log
+
 2- Matched points report >> passing_points.rpt
+
 3- Unmatched points report >> failing_points.rpt
+
 4- Unverified Points report >> unverified_points.rpt
+
 5- Aborted Points report >> aborted_points.rpt
 
 
